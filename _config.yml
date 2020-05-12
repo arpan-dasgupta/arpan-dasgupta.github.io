@@ -1,5 +1,5 @@
-layout: sidebar
-style: light
+layout: stacked
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -26,12 +26,12 @@ projects:
     archived: false
     forks: true
     projects:
-    # - repo-name
+    - Start
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
+  facebook: arpanet.fgdc.5205
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
@@ -39,7 +39,7 @@ projects:
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
+  telegram: arpan_dg
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
@@ -50,8 +50,6 @@ topics:
   - name: CSS
     web_url: https://github.com/topics/css
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
 
   - name: Sass
     web_url: https://github.com/topics/sass
