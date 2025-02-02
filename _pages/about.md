@@ -15,7 +15,7 @@ profile:
 
 # news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-# social: true # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hi, I am Arpan, a Pre-Doctoral Researcher at Google DeepMind. I work on multi-agent systems, RL and decision making. I am on the outlook for PhD positions in the field of Reinforcement Learning. 
