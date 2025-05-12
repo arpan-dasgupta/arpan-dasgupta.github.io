@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am Arpan, a Pre-Doctoral Researcher at Google DeepMind. I work on multi-agent systems, RL and decision making. I am on the outlook for PhD positions in the field of Reinforcement Learning. 
+Hi, I am Arpan, a Pre-Doctoral Researcher at Google DeepMind. I work on multi-agent systems, RL and decision making. I am on the outlook for impactful ML Engineer positions in industry. 
 
 I currently work in the team Multi-agent Systems for Social Impact, developing bandit algorithms for social-good applications in a team lead by Prof. Milind Tambe (Harvard University) and Dr. Aparna Taneja. Previously, I have worked at MDSR Lab, Adobe on Explainibility on Explainability in Offline RL. 
 
