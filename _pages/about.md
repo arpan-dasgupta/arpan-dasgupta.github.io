@@ -28,7 +28,7 @@ Use the interactive section below to plan a focused work block, get a quick proj
   <p class="mb-3">Pick your mood, set a focus duration, and receive a custom prompt.</p>
 
   <form id="focus-form" class="mb-3">
-    <label for="mood-select" class="form-label">Current mood</label>
+    <label for="mood-select" class="font-weight-bold d-block">Current mood</label>
     <select id="mood-select" class="form-control mb-3">
       <option value="curious">Curious</option>
       <option value="energetic">Energetic</option>
@@ -36,8 +36,8 @@ Use the interactive section below to plan a focused work block, get a quick proj
       <option value="stuck">Stuck</option>
     </select>
 
-    <label for="focus-length" class="form-label">Focus length (minutes)</label>
-    <input id="focus-length" class="form-range" type="range" min="10" max="90" step="5" value="30" />
+    <label for="focus-length" class="font-weight-bold d-block">Focus length (minutes)</label>
+    <input id="focus-length" class="custom-range" type="range" min="10" max="90" step="5" value="30" />
     <p class="mb-3">
       Selected length:
       <strong><span id="focus-length-value">30</span> minutes</strong>
@@ -50,9 +50,9 @@ Use the interactive section below to plan a focused work block, get a quick proj
     Your personalized focus prompt will appear here.
   </div>
 
-  <div class="d-flex flex-wrap gap-2 mb-2">
-    <button id="idea-button" type="button" class="btn btn-outline-primary">Suggest a micro project</button>
-    <button id="motivation-button" type="button" class="btn btn-outline-secondary">Boost motivation</button>
+  <div class="mb-2">
+    <button id="idea-button" type="button" class="btn btn-outline-primary mr-2 mb-2">Suggest a micro project</button>
+    <button id="motivation-button" type="button" class="btn btn-outline-secondary mb-2">Boost motivation</button>
   </div>
   <p id="idea-output" class="mb-2">Click "Suggest a micro project" to get a fresh idea.</p>
   <p id="motivation-output" class="mb-0">Momentum score: <strong><span id="motivation-count">0</span></strong></p>
