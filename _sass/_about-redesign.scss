@@ -1,0 +1,100 @@
+.post article {
+  .hero-card {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 18px;
+    background:
+      radial-gradient(circle at 85% 15%, rgba(120, 90, 255, 0.16), transparent 36%),
+      radial-gradient(circle at 10% 75%, rgba(43, 187, 173, 0.14), transparent 40%),
+      var(--global-card-bg-color);
+    box-shadow: 0 12px 28px rgba(16, 24, 40, 0.08);
+  }
+
+  .hero-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 240px minmax(0, 1fr);
+    padding: 1.5rem;
+  }
+
+  .hero-profile {
+    .profile {
+      float: none;
+      margin: 0;
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      max-width: 220px;
+      border: 4px solid rgba(255, 255, 255, 0.75);
+      box-shadow: 0 8px 20px rgba(16, 24, 40, 0.15);
+    }
+
+    .more-info {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .hero-content {
+    .hero-tag {
+      display: inline-block;
+      margin-bottom: 0.9rem;
+      padding: 0.22rem 0.72rem;
+      border: 1px solid var(--global-theme-color);
+      border-radius: 999px;
+      color: var(--global-theme-color);
+      font-size: 0.82rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .content-card {
+    margin-bottom: 1.2rem;
+    padding: 1.25rem 1.3rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 14px;
+    background-color: var(--global-card-bg-color);
+    box-shadow: 0 6px 18px rgba(16, 24, 40, 0.05);
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+  }
+
+  .social-card .contact-note {
+    margin-top: 0.75rem;
+  }
+}
+
+html[data-theme="dark"] .post article {
+  .hero-card,
+  .content-card {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  }
+
+  .hero-profile img {
+    border-color: rgba(255, 255, 255, 0.18);
+  }
+}
+
+@media (max-width: 768px) {
+  .post article .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: left;
+  }
+
+  .post article .hero-profile img {
+    max-width: 175px;
+  }
+}
